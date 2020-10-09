@@ -5,12 +5,12 @@ const Paragraph = styled.h1`
 color: white;
 text-transform: uppercase;
 text-align: center;
-font-family: 'Londrina Solid', cursive; 
+font-family: 'Comic Sans MS', cursive; 
 padding: 0.5rem;
 letter-spacing = 2px;
 `;
 const Paragraph2 = styled(Paragraph)`
-font-family: 'Balsamiq Sans', cursive;
+font-family: 'Courier New', Courier;
 color: #A52A2A;
 font-size: 150%;
 `;

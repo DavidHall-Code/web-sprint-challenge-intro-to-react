@@ -1,8 +1,15 @@
 import React, {useState, useEffect} from 'react';
-import axios from 'axios'
-import Character from "./components/Character"
-
+import axios from 'axios';
+import styled from 'styled-components';
+import CharacterCard from "./components/Character.js";
 import './App.css';
+
+const Warpper = styled.div`
+width: 100%;
+height: 100%;
+margin: 0;
+`;
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -24,9 +31,10 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="App">
-      <h1 className="Header">Star Wars Characters</h1>
-    </div>
+    <Warpper className="App">
+      <h1 className="Header">Start Wars Characters</h1>
+      <CharacterCard data={data} />
+    </Warpper>
   );
 }
 
