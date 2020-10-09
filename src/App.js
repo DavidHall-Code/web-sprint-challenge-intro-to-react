@@ -32,7 +32,7 @@ useEffect(() => {
 
   return (
     <Warpper className="App">
-      <h1 className="Header">Start Wars Characters</h1>
+      <h1 className="Header">Star Wars Characters</h1>
       <CharacterCard data={data} />
     </Warpper>
   );
