@@ -5,11 +5,7 @@ import './App.css';
 import CharacterCard from './components/Character'
 
 
-const Wrapper = styled.div `
-width: 100%;
-height: 100%;
-margin: 0;
-`;
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -32,10 +28,21 @@ const App = () => {
 
   return (
     <Wrapper className="App">
-      <h1 className="Header">Characters</h1>
+      <Title className="Header">The Births of Star Wars</Title>
       <CharacterCard data={data} />
     </Wrapper>
   );
 }
 
+const Wrapper = styled.div `
+width: 100%;
+height: 100%;
+margin: 0;
+`;
+
+const Title = styled.h1 `
+color: #6054c4;
+font-size: 5rem;
+text-shadow: 2px 2px black;
+`
 export default App;

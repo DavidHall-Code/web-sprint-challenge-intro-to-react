@@ -16,7 +16,7 @@ return (
 }
 
 const P1 = styled.h1 `
-color: #d5f6f7;
+color: #8febeb;
 text-transform: uppercase;
 text-align: center;
 font-family: 'Comic Sans MS', cursive;
@@ -26,9 +26,9 @@ letter-spacing = 2px;
 
 const P2 = styled(P1) `
 font-family: 'Courier New', cursive;
-color: #A52A2A;
+color: #f59714;
 font-size: 2rem;
-text-shadow: 1px 1px white;
+//text-shadow: 1px 1px white;
 `;
 
 const Plate = styled.div `
